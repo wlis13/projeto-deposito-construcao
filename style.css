@@ -252,7 +252,6 @@ body {
     width: 535px;
     top: 105px;
     height: 200px;
-    border: 2px solid red;
   }
 
   .show-image img {
@@ -265,9 +264,8 @@ body {
 
   .container-aside-section {
     display: block;
-    margin-top: 100px;
+    margin-top: 120px;
     width: 535px;
-    border: 2px solid red;
   }
 
   .iten-product {
@@ -276,10 +274,24 @@ body {
 
   .aside {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     width: 535px;
     top: -500px;
-    border: 2px solid red;
+  }
+
+  .aside a {
+    text-align: center;
+    padding: 10px;
+    width: 140px;
+    height: 40px;
+    margin-bottom: 12px;
+    box-shadow: 1px 1px 2px black;
+  }
+
+  .container-footer {
+    width: 535px;
   }
 }
