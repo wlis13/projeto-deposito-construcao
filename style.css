@@ -206,3 +206,29 @@ body {
   font-size: 15pt;
   color: white;
 }
+
+@media only screen and (width: 360px) {
+  .container-center {
+    width: 360px;
+  }
+
+  .header {
+    justify-content: last baseline;
+  }
+
+  .logo-header {
+    width: 150px;
+    margin-left: 10px;
+    border: 2px solid red;
+  }
+
+  .container-logo {
+    position: absolute;
+    top: 2500px;
+  }
+
+  .header input {
+    width: 300px;
+    margin-left: 80px;
+  }
+}
