@@ -335,3 +335,241 @@ body {
     margin-top: 170px;
   }
 }
+
+@media only screen and (width: 384px) {
+  .container-every {
+    width: 384px;
+  }
+  .header {
+    flex-direction: column;
+    width: 384px;
+  }
+
+  .header input {
+    width: 250px;
+  }
+
+  .logo-search {
+    top: 85px;
+    left: 335px;
+  }
+  .logo-header {
+    margin-left: 10px;
+  }
+
+  .container-logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 370px;
+  }
+
+  .logo-menu {
+    position: fixed;
+    left: 20px;
+    top: 133px;
+    z-index: 1254;
+  }
+
+  .child-header {
+    position: absolute;
+    top: 300px;
+    width: 384px;
+    left: 100px;
+    z-index: 55555;
+    display: none;
+  }
+
+  .container-logo {
+    margin-left: 200px;
+  }
+
+  .show-image {
+    position: relative;
+    width: 384px;
+    top: 105px;
+    height: 200px;
+  }
+
+  .show-image img {
+    position: absolute;
+    width: 100%;
+    top: 400px;
+    object-fit: fill;
+    margin-top: -400px;
+  }
+
+  .container-aside-section {
+    display: block;
+    margin-top: 120px;
+    width: 384px;
+  }
+
+  .iten-product {
+    flex-direction: row;
+    width: 120px;
+    height: 337px;
+  }
+
+  .iten-product img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 350px;
+    top: -500px;
+  }
+
+  .aside a {
+    text-align: center;
+    padding: 10px;
+    width: 140px;
+    height: 40px;
+    margin-bottom: 12px;
+    box-shadow: 1px 1px 2px black;
+  }
+
+  .container-footer {
+    width: 384px;
+  }
+
+  .icons-footer {
+    width: 200px;
+    position: relative;
+    left: -1050px;
+  }
+
+  .container-footer p {
+    margin-top: 170px;
+  }
+}
+
+@media only screen and (width: 412px) {
+  .container-every {
+    width: 412px;
+  }
+  .header {
+    flex-direction: column;
+    width: 412px;
+  }
+
+  .header input {
+    width: 250px;
+  }
+
+  .logo-search {
+    top: 85px;
+    left: 350px;
+  }
+  .logo-header {
+    margin-left: 10px;
+  }
+
+  .container-logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 370px;
+  }
+
+  .logo-menu {
+    position: fixed;
+    left: 20px;
+    top: 133px;
+    z-index: 1254;
+  }
+
+  .child-header {
+    position: absolute;
+    top: 300px;
+    width: 412px;
+    left: 100px;
+    z-index: 55555;
+    display: none;
+  }
+
+  .container-logo {
+    margin-left: 200px;
+  }
+
+  .show-image {
+    position: relative;
+    width: 412px;
+    top: 105px;
+    height: 200px;
+  }
+
+  .show-image img {
+    position: absolute;
+    width: 100%;
+    top: 400px;
+    object-fit: fill;
+    margin-top: -400px;
+  }
+
+  .container-aside-section {
+    display: block;
+    margin-top: 120px;
+    width: 412px;
+  }
+
+  .iten-product {
+    flex-direction: row;
+    width: 150px;
+    height: 337px;
+  }
+
+  .iten-product img {
+    width: 150px;
+    height: 120px;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 350px;
+    top: -500px;
+    margin-left: 20px;
+  }
+
+  .aside a {
+    text-align: center;
+    padding: 10px;
+    width: 140px;
+    height: 40px;
+    margin-bottom: 12px;
+    margin-left: 10px;
+    box-shadow: 1px 1px 2px black;
+  }
+
+  .container-footer {
+    width: 412px;
+  }
+
+  .icons-footer {
+    width: 200px;
+    position: relative;
+    left: -1030px;
+  }
+
+  .container-footer p {
+    margin-top: 170px;
+  }
+}
