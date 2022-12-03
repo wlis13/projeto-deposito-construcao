@@ -224,12 +224,16 @@ body {
   }
   .header {
     flex-direction: column;
-    width: 535px;
+    width: 360px;
+  }
+
+  .header input {
+    width: 250px;
   }
 
   .logo-search {
-    top: 82px;
-    left: 470px;
+    top: 85px;
+    left: 315px;
   }
   .logo-header {
     margin-left: 10px;
@@ -250,16 +254,20 @@ body {
 
   .child-header {
     position: absolute;
-    top: 180px;
+    top: 300px;
     width: 360px;
     left: 100px;
     z-index: 55555;
     display: none;
   }
 
+  .container-logo {
+    margin-left: 200px;
+  }
+
   .show-image {
     position: relative;
-    width: 535px;
+    width: 360px;
     top: 105px;
     height: 200px;
   }
@@ -275,10 +283,22 @@ body {
   .container-aside-section {
     display: block;
     margin-top: 120px;
-    width: 535px;
+    width: 360px;
   }
 
   .iten-product {
+    flex-direction: row;
+    width: 120px;
+    height: 337px;
+  }
+
+  .iten-product img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .section {
+    display: flex;
     flex-direction: row;
   }
 
@@ -288,7 +308,7 @@ body {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 535px;
+    width: 350px;
     top: -500px;
   }
 
@@ -302,13 +322,13 @@ body {
   }
 
   .container-footer {
-    width: 535px;
+    width: 360px;
   }
 
   .icons-footer {
     width: 200px;
     position: relative;
-    left: -970px;
+    left: -1050px;
   }
 
   .container-footer p {
