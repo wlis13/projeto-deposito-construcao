@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(134, 160, 134);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-bottom: 3px solid black;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: -4px;
+}
+
+.container-every {
+  margin-top: 90px;
+}
+
+.logo-header {
+  width: 250px;
+  height: 80px;
+  margin-left: 30px;
+}
+
+.container-logo {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+  width: 150px;
+}
+
+.cart-logo {
+  width: 30px;
+  cursor: pointer;
+}
+
+.logo-user {
+  width: 30px;
+  cursor: pointer;
+}
+
+.logo-phone {
+  width: 30px;
+  cursor: pointer;
+}
+
+.logo-search {
+  position: absolute;
+  width: 30px;
+  cursor: pointer;
+  left: 935px;
+}
+
+.header input {
+  height: 30px;
+  width: 380px;
+  font-size: 17pt;
+}
+
+.child-header {
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  align-items: center;
+  margin-top: 10px;
+  height: 50px;
+  background-color: white;
+}
+
+.child-header a {
+  text-decoration: none;
+  font-size: 15pt;
+  color: black;
+}
+
+.child-header a:hover {
+  transform: scale(1.2);
+}
+
+.logo-menu {
+  position: absolute;
+  top: 105px;
+  left: 20px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.show-image {
+  width: 100%;
+  height: 420px;
+  position: relative;
+}
+
+.show-image img {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 2px solid black;
+  box-shadow: 2px 2px 4px black;
+}
+
+.show-image img.show {
+  opacity: 1;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  width: 305px;
+}
+
+.aside {
+  margin-top: 30px;
+}
+
+.container-aside-section {
+  display: flex;
+}
+
+.aside a {
+  text-decoration: none;
+  font-size: 18pt;
+  color: black;
+  margin-left: 10px;
+  padding-bottom: 20px;
+  width: 300px;
+}
+
+.aside a:hover {
+  font-size: 20pt;
+  font-weight: 600;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  border-left: 2px solid rgb(68, 67, 67);
+  background-color: white;
+}
+
+.iten-product {
+  margin: 15px;
+  box-shadow: 1px 1px 2px black;
+}
+
+.iten-product p {
+  text-align: center;
+  font-size: 15pt;
+}
+
+.iten-product h4 {
+  text-align: center;
+  font-size: 25pt;
+  color: rgb(70, 161, 70);
+}
+
+.iten-product button {
+  text-align: center;
+  font-size: 18pt;
+  color: rgb(134, 160, 134);
+  padding: 5px;
+  width: 120px;
+}
