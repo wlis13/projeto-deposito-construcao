@@ -30,27 +30,27 @@ const products =
     {
       name: 'carrinho de mão',
       price: 211.99,
-      image: './carrinho-de-mão.jpeg',
+      image: './images/carrinho-de-mão.jpeg',
     },
     {
       name: 'colher de pedreiro',
       price: 19.99,
-      image: './colher-de-pedreiro.jpeg',
+      image: './images/colher-de-pedreiro.jpeg',
     },
     {
       name: 'furadeira Boch',
       price: 239.99,
-      image: './furadeira.jpeg',
+      image: './images/furadeira.jpeg',
     },
     {
       name: 'trenna Vonder',
       price: 23.99,
-      image: './trenna.jpeg',
+      image: './images/trenna.jpeg',
     },
     {
       name: 'martelo Ferreiro',
       price: 29.99,
-      image: './imagen-de-martelo.jpeg',
+      image: './images/imagen-de-martelo.jpeg',
     },
   ];
 
@@ -60,6 +60,7 @@ for (let index = 0; index < products.length; index += 1) {
 
   const itensProducts = document.createElement('div');
   itensProducts.classList.add('iten-product');
+  itensProducts.classList.add(`id${ index }`)
 
   const buttons = document.createElement('button');
   buttons.innerText = 'comprar'
