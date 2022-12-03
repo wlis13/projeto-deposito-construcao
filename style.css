@@ -218,7 +218,7 @@ body {
   padding: 10px;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (width: 360px) {
   .container-every {
     width: 360px;
   }
@@ -288,12 +288,12 @@ body {
 
   .iten-product {
     flex-direction: row;
-    width: 120px;
+    width: 130px;
     height: 337px;
   }
 
   .iten-product img {
-    width: 120px;
+    width: 130px;
     height: 120px;
   }
 
@@ -406,12 +406,12 @@ body {
 
   .iten-product {
     flex-direction: row;
-    width: 120px;
+    width: 135px;
     height: 337px;
   }
 
   .iten-product img {
-    width: 120px;
+    width: 135px;
     height: 120px;
   }
 
