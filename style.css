@@ -206,3 +206,7 @@ body {
   font-size: 15pt;
   color: white;
 }
+
+.container-center {
+  width: 99%;
+}
