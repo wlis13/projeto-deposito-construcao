@@ -207,3 +207,48 @@ body {
   font-size: 15pt;
   color: white;
 }
+
+@media only screen and (width: 360px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .logo-search {
+    top: 82px;
+    left: 470px;
+  }
+  .logo-header {
+    margin-left: 10px;
+  }
+
+  .container-logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 350px;
+  }
+
+  .logo-menu {
+    position: fixed;
+    left: 20px;
+    top: 133px;
+    z-index: 1254;
+  }
+
+  .child-header {
+    position: absolute;
+    top: 180px;
+    width: 360px;
+    left: 100px;
+    z-index: 55555;
+  }
+
+  .show-image {
+    position: absolute;
+    width: 500px;
+    left: 30px;
+  }
+
+  .show-image img {
+    width: 200px;
+  }
+}
