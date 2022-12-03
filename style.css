@@ -150,6 +150,7 @@ body {
 .iten-product {
   margin: 15px;
   box-shadow: 1px 1px 2px black;
+  border-radius: 5px;
 }
 
 .iten-product p {
@@ -166,7 +167,13 @@ body {
 .iten-product button {
   text-align: center;
   font-size: 18pt;
-  color: rgb(134, 160, 134);
-  padding: 5px;
-  width: 120px;
+  font-weight: 600;
+  background-color: rgb(134, 160, 134);
+  color: white;
+  padding: 15px 5px;
+
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  margin-top: 18px;
 }
