@@ -209,8 +209,12 @@ body {
 }
 
 @media only screen and (width: 360px) {
+  .container-every {
+    width: 360px;
+  }
   .header {
     flex-direction: column;
+    width: 535px;
   }
 
   .logo-search {
@@ -240,15 +244,42 @@ body {
     width: 360px;
     left: 100px;
     z-index: 55555;
+    display: none;
   }
 
   .show-image {
-    position: absolute;
-    width: 500px;
-    left: 30px;
+    position: relative;
+    width: 535px;
+    top: 105px;
+    height: 200px;
+    border: 2px solid red;
   }
 
   .show-image img {
-    width: 200px;
+    position: absolute;
+    width: 100%;
+    top: 400px;
+    object-fit: fill;
+    margin-top: -400px;
+  }
+
+  .container-aside-section {
+    display: block;
+    margin-top: 100px;
+    width: 535px;
+    border: 2px solid red;
+  }
+
+  .iten-product {
+    flex-direction: row;
+  }
+
+  .aside {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 535px;
+    top: -500px;
+    border: 2px solid red;
   }
 }
