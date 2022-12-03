@@ -143,6 +143,7 @@ body {
 .section {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   border-left: 2px solid rgb(68, 67, 67);
   background-color: white;
 }
@@ -151,17 +152,23 @@ body {
   margin: 15px;
   box-shadow: 1px 1px 2px black;
   border-radius: 5px;
+  width: 200px;
+  height: 380px;
+  margin-top: 35px;
 }
 
 .iten-product p {
   text-align: center;
   font-size: 15pt;
+  height: 50px;
+  background-color: gainsboro;
 }
 
 .iten-product h4 {
   text-align: center;
   font-size: 25pt;
   color: rgb(70, 161, 70);
+  margin-bottom: 20px;
 }
 
 .iten-product button {
@@ -170,10 +177,32 @@ body {
   font-weight: 600;
   background-color: rgb(134, 160, 134);
   color: white;
-  padding: 15px 5px;
+  padding: 20px 5px;
   width: 100%;
   border-radius: 5px;
   border: none;
-  margin-top: 18px;
   cursor: pointer;
+  margin-bottom: 0px;
+}
+
+.iten-product img {
+  width: 200px;
+  height: 200px;
+}
+
+.iten-product img:hover {
+  width: 250px;
+  height: 250px;
+}
+
+.container-footer {
+  height: 400px;
+  background-color: rgb(165, 164, 164);
+}
+
+.container-footer p {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 15pt;
+  color: white;
 }
