@@ -203,9 +203,19 @@ body {
 
 .container-footer p {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 300px;
   font-size: 15pt;
-  color: white;
+  color: black;
+}
+
+.icons-footer {
+  margin-left: 1150px;
+}
+
+.icons-footer img {
+  width: 40px;
+  margin-top: 30px;
+  padding: 10px;
 }
 
 @media only screen and (width: 360px) {
@@ -293,5 +303,15 @@ body {
 
   .container-footer {
     width: 535px;
+  }
+
+  .icons-footer {
+    width: 200px;
+    position: relative;
+    left: -970px;
+  }
+
+  .container-footer p {
+    margin-top: 170px;
   }
 }
