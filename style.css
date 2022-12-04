@@ -220,6 +220,26 @@ body {
   width: 40px;
   margin-top: 30px;
   padding: 10px;
+  cursor: pointer;
+}
+
+.container-length-cart {
+  position: absolute;
+  top: 15px;
+  left: 1355px;
+}
+
+.length-cart {
+  background-color: rgb(165, 164, 164);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 @media only screen and (width: 360px) {
@@ -337,6 +357,10 @@ body {
     width: 200px;
     position: relative;
     left: -1050px;
+  }
+
+  .icons-footer img {
+    cursor: pointer;
   }
 
   .container-footer p {
@@ -461,6 +485,10 @@ body {
     left: -1050px;
   }
 
+  .icons-footer img {
+    cursor: pointer;
+  }
+
   .container-footer p {
     margin-top: 170px;
   }
@@ -583,6 +611,10 @@ body {
     width: 200px;
     position: relative;
     left: -1030px;
+  }
+
+  .icons-footer img {
+    cursor: pointer;
   }
 
   .container-footer p {
