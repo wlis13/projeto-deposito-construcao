@@ -54,7 +54,7 @@ body {
   position: absolute;
   width: 30px;
   cursor: pointer;
-  left: 1070px;
+  left: 1080px;
 }
 
 .header input {
@@ -94,7 +94,7 @@ body {
 
 .show-image {
   width: 100%;
-  height: 420px;
+  height: 470px;
   position: relative;
 }
 
@@ -226,7 +226,7 @@ body {
 .container-length-cart {
   position: absolute;
   top: 15px;
-  left: 1355px;
+  left: 1375px;
 }
 
 .length-cart {

@@ -119,10 +119,13 @@ for (let index = 0; index < products.length; index += 1) {
 const lengthCart = document.querySelector('.length-cart');
 lengthCart.innerHTML = '0';
 
-const arr = [];
+const arr = JSON.parse(localStorage.getItem("user-produ")) || [];
+arr === undefined ? lengthCart.innerHTML = '0' : lengthCart.innerText = arr.length
+
 const buttonClick = document.querySelectorAll('.button-click');
 for (let index = 0; index < buttonClick.length; index += 1) {
   buttonClick[index].addEventListener('click', () => {
+
     const nameProduct = document.querySelectorAll
       ('.button-click')[index].parentNode.childNodes[0].innerHTML;
     const imageProduct = document.querySelectorAll
@@ -135,11 +138,9 @@ for (let index = 0; index < buttonClick.length; index += 1) {
       priceProduct,
     };
     arr.push({ objectProducts })
-    localStorage.setItem("user-produ", JSON.stringify(arr));
+    localStorage.setItem("user-produ", JSON.stringify(arr))
 
-    if (arr.length > 0) {
-      lengthCart.innerHTML = arr.length;
-    }
+    lengthCart.innerText = arr.length;
   })
 
 }
