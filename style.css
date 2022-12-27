@@ -369,7 +369,12 @@ body {
     margin-top: 170px;
   }
 
-  .length-cart {
+  .container-length-cart {
+    position: absolute;
+    top: 120px;
+    width: 25px;
+    height: 25px;
+    left: 210px;
   }
 }
 
@@ -496,6 +501,14 @@ body {
 
   .container-footer p {
     margin-top: 170px;
+  }
+
+  .container-length-cart {
+    position: absolute;
+    top: 120px;
+    width: 25px;
+    height: 25px;
+    left: 220px;
   }
 }
 
@@ -624,5 +637,13 @@ body {
 
   .container-footer p {
     margin-top: 170px;
+  }
+
+  .container-length-cart {
+    position: absolute;
+    top: 120px;
+    width: 25px;
+    height: 25px;
+    left: 240px;
   }
 }

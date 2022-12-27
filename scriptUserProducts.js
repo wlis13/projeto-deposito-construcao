@@ -10,9 +10,13 @@ for (let index = 0; index < getProductsUser.length; index += 1) {
   imaged.src = getProductsUser[index].objectProducts.imageProduct;
   const priced = document.createElement('h4');
   priced.innerText = getProductsUser[index].objectProducts.priceProduct;
+  const buttonExcluir = document.createElement('button');
+  buttonExcluir.innerText = 'Excluir';
+  buttonExcluir.classList.add('button-excluir');
   divCart.appendChild(named);
   divCart.appendChild(imaged);
   divCart.appendChild(priced);
+  divCart.appendChild(buttonExcluir);
   userProducts.appendChild(divCart);
 }
 // getProductsUser[index].objectProducts.nameProduct
