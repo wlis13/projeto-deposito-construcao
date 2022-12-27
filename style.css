@@ -230,6 +230,7 @@ body {
 }
 
 .length-cart {
+  position: absolute;
   background-color: rgb(165, 164, 164);
   display: flex;
   justify-content: center;
@@ -240,6 +241,7 @@ body {
   color: white;
   font-weight: 600;
   font-size: 20px;
+  right: 0px;
 }
 
 @media only screen and (width: 360px) {
@@ -365,6 +367,9 @@ body {
 
   .container-footer p {
     margin-top: 170px;
+  }
+
+  .length-cart {
   }
 }
 
