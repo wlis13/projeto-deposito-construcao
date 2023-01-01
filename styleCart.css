@@ -1,3 +1,28 @@
+* {
+  margin: 0;
+}
+
+.user-products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.div-cart {
+  margin-left: 20px;
+  border-bottom: 2px solid black;
+}
+
+.div-cart img {
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.confirm-buy {
+  position: absolute;
+  top: 500px;
+}
+
 @media only screen and (width: 360px) {
   * {
     margin: 0;
