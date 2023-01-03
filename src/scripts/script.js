@@ -1,7 +1,5 @@
-import { products } from './util/data.js';
+import { products } from '../util/data.js';
 
-const test = products;
-console.log(test);
 const time = 2000;
 let imageIndex = 0;
 const images = document.querySelectorAll('.show-image img');
@@ -38,15 +36,21 @@ for (let index = 0; index < products.length; index += 1) {
   buttons.classList.add('button-click');
   buttons.innerText = 'comprar';
 
+  const id = document.createElement('p');
+  id.innerText = index;
+  id.style.display = 'none';
+
   const titles = document.createElement('p');
   titles.innerText = products[index].name;
 
   const images = document.createElement('img');
   images.src = products[index].image;
+  images.alt = `producti n°${ index }`;
 
   const prices = document.createElement('h4');
   prices.innerText = products[index].price;
 
+  itensProducts.appendChild(id);
   itensProducts.appendChild(titles);
   itensProducts.appendChild(images);
   itensProducts.appendChild(prices);
@@ -63,13 +67,16 @@ arr === undefined ? lengthCart.innerHTML = '0' : lengthCart.innerText = arr.leng
 const buttonClick = document.querySelectorAll('.button-click');
 for (let index = 0; index < buttonClick.length; index += 1) {
   buttonClick[index].addEventListener('click', () => {
-    const nameProduct = document.querySelectorAll('.button-click')[index]
-      .parentNode.childNodes[0].innerHTML;
-    const imageProduct = document.querySelectorAll('.button-click')[index]
-      .parentNode.childNodes[1].src;
-    const priceProduct = document.querySelectorAll('.button-click')[index]
-      .parentNode.childNodes[2].innerHTML;
+    const idProducts = document
+      .querySelectorAll('.section')[0].childNodes[index].children[0].innerHTML;
+    const nameProduct = document
+      .querySelectorAll('.section')[0].childNodes[index].children[1].innerHTML;
+    const imageProduct = document
+      .querySelectorAll('.section')[0].childNodes[index].children[2].src;
+    const priceProduct = document
+      .querySelectorAll('.section')[0].childNodes[index].children[3].innerHTML;
     const objectProducts = {
+      idProducts,
       nameProduct,
       imageProduct,
       priceProduct,
