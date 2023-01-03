@@ -69,9 +69,7 @@ for (let index = 0; index < buttonClick.length; index += 1) {
       .parentNode.childNodes[1].src;
     const priceProduct = document.querySelectorAll('.button-click')[index]
       .parentNode.childNodes[2].innerHTML;
-    const id = index;
     const objectProducts = {
-      id,
       nameProduct,
       imageProduct,
       priceProduct,

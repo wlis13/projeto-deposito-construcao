@@ -19,16 +19,4 @@ for (let index = 0; index < getProductsUser.length; index += 1) {
   divCart.appendChild(buttonExcluir);
   userProducts.appendChild(divCart);
 }
-
-const buttonExcluirProduct = document.querySelectorAll('.button-excluir');
-
-for (let index = 0; index < buttonExcluirProduct.length; index += 1) {
-  buttonExcluirProduct[index].addEventListener('click', (event) => {
-    const getProductsStorad = JSON.parse(localStorage.getItem('user-produ'));
-    const nameProductsStorad = document.querySelectorAll('.button-excluir')[index]
-      .parentNode.childNodes[0].innerHTML;
-    console.log(nameProductsStorad);
-  });
-}
-
 // getProductsUser[index].objectProducts.nameProduct
