@@ -98,6 +98,7 @@ logoSearch.addEventListener('click', () => {
       logoSearch.href = endpoints[index];
     }
   }
+
 });
 
 // document.querySelectorAll('.button-click')[0].parentNode.childNodes[0];
