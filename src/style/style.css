@@ -54,7 +54,8 @@ body {
   position: absolute;
   width: 30px;
   cursor: pointer;
-  left: 1080px;
+  left: 76%;
+  top: 12px;
 }
 
 .header input {

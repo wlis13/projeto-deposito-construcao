@@ -1,7 +1,7 @@
 const userProducts = document.querySelector('.user-products');
 const getProductsUser = JSON.parse(localStorage.getItem('user-produ'));
 
-let total = 0;
+let total = '';
 
 for (let index = 0; index < getProductsUser.length; index += 1) {
   const divCart = document.createElement('div');
@@ -14,9 +14,11 @@ for (let index = 0; index < getProductsUser.length; index += 1) {
   imaged.src = getProductsUser[index].objectProducts.imageProduct;
   const priced = document.createElement('h4');
   priced.innerText = getProductsUser[index].objectProducts.priceProduct;
-  const stringPrice = priced.innerHTML.split('');
-  const test = stringPrice.splice(3)
-  console.log(test);
+  const stringPrice = priced.innerHTML;
+  const test = stringPrice.substring(3)
+  const removeColum = test.split('');
+  const separa = removeColum.splice(2, 1);
+  console.log(separa)
   const buttonExcluir = document.createElement('button');
   buttonExcluir.innerText = 'Excluir';
   buttonExcluir.classList.add('button-excluir');

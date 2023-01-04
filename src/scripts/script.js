@@ -1,4 +1,4 @@
-import { products } from '../util/data.js';
+import { products, endpoints } from '../util/data.js';
 
 const time = 2000;
 let imageIndex = 0;
@@ -87,6 +87,18 @@ for (let index = 0; index < buttonClick.length; index += 1) {
     lengthCart.innerText = arr.length;
   });
 }
+
+const logoSearch = document.querySelector('.logo-search');
+const inputSearch = document.querySelector('.input-search');
+const testSearch = document.querySelector('.test-search');
+
+logoSearch.addEventListener('click', () => {
+  for (let index = 0; index < endpoints.length; index += 1) {
+    if (endpoints[index].includes(inputSearch.value)) {
+      logoSearch.href = endpoints[index];
+    }
+  }
+});
 
 // document.querySelectorAll('.button-click')[0].parentNode.childNodes[0];
 // [0] = p [1] = img, [2] = h4, [3] = button

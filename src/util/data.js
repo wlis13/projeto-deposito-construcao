@@ -61,4 +61,12 @@ const products = [
   },
 ];
 
-export { products };
+const endpoints = [
+  '../pages/ferramentas-eletricas.html',
+  '../pages/materiais-construção.html',
+  '../pages/materiais-acabamento.html',
+  '../pages/pisos-revestimentos.html',
+  '../pages/portasjanelas.html',
+];
+
+export { products, endpoints };
